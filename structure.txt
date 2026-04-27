@@ -1,0 +1,163 @@
+Folder PATH listing
+Volume serial number is 525B-2CC1
+C:\USERS\VRUNANI\ONEDRIVE\DESKTOP\JUSTLEAVE
+¦   .gitignore
+¦   pom.xml
+¦   structure.txt
+¦   
++---LeaveManagementApp
++---src
+¦   +---main
+¦       +---java
+¦       ¦   +---com
+¦       ¦       +---leavemanagement
+¦       ¦           +---dao
+¦       ¦           ¦       LeaveDAO.java
+¦       ¦           ¦       NotificationDAO.java
+¦       ¦           ¦       UserDAO.java
+¦       ¦           ¦       
+¦       ¦           +---model
+¦       ¦           ¦       Leave.java
+¦       ¦           ¦       Notification.java
+¦       ¦           ¦       User.java
+¦       ¦           ¦       
+¦       ¦           +---servlet
+¦       ¦           ¦       AdminDashboardServlet.java
+¦       ¦           ¦       ApplyLeaveServlet.java
+¦       ¦           ¦       CancelLeaveServlet.java
+¦       ¦           ¦       CreateUserServlet.java
+¦       ¦           ¦       LoginServlet.java
+¦       ¦           ¦       LogoutServlet.java
+¦       ¦           ¦       NotificationServlet.java
+¦       ¦           ¦       PublishNotificationServlet.java
+¦       ¦           ¦       UpdateLeaveServlet.java
+¦       ¦           ¦       UserDashboardServlet.java
+¦       ¦           ¦       
+¦       ¦           +---util
+¦       ¦                   DBConnection.java
+¦       ¦                   
+¦       +---resources
+¦       ¦       schema.sql
+¦       ¦       
+¦       +---webapp
+¦           ¦   index.jsp
+¦           ¦   
+¦           +---WEB-INF
+¦               ¦   web.xml
+¦               ¦   
+¦               +---views
+¦                   ¦   addStudentServelet.java
+¦                   ¦   error.jsp
+¦                   ¦   login.jsp
+¦                   ¦   
+¦                   +---admin
+¦                   ¦       create-user.jsp
+¦                   ¦       dashboard.jsp
+¦                   ¦       publish-notification.jsp
+¦                   ¦       
+¦                   +---user
+¦                           apply-leave.jsp
+¦                           dashboard.jsp
+¦                           notifications.jsp
+¦                           
++---target
+    ¦   LeaveManagementApp.war
+    ¦   
+    +---classes
+    ¦   +---com
+    ¦       +---leavemanagement
+    ¦           +---dao
+    ¦           ¦       LeaveDAO.class
+    ¦           ¦       NotificationDAO.class
+    ¦           ¦       UserDAO.class
+    ¦           ¦       
+    ¦           +---model
+    ¦           ¦       Leave.class
+    ¦           ¦       Notification.class
+    ¦           ¦       User.class
+    ¦           ¦       
+    ¦           +---servlet
+    ¦           ¦       AdminDashboardServlet.class
+    ¦           ¦       ApplyLeaveServlet.class
+    ¦           ¦       CancelLeaveServlet.class
+    ¦           ¦       CreateUserServlet.class
+    ¦           ¦       LoginServlet.class
+    ¦           ¦       LogoutServlet.class
+    ¦           ¦       NotificationServlet.class
+    ¦           ¦       PublishNotificationServlet.class
+    ¦           ¦       UpdateLeaveServlet.class
+    ¦           ¦       UserDashboardServlet.class
+    ¦           ¦       
+    ¦           +---util
+    ¦                   DBConnection.class
+    ¦                   
+    +---generated-sources
+    ¦   +---annotations
+    +---LeaveManagementApp
+    ¦   ¦   index.jsp
+    ¦   ¦   
+    ¦   +---META-INF
+    ¦   +---WEB-INF
+    ¦       ¦   web.xml
+    ¦       ¦   
+    ¦       +---classes
+    ¦       ¦   ¦   schema.sql
+    ¦       ¦   ¦   
+    ¦       ¦   +---com
+    ¦       ¦       +---leavemanagement
+    ¦       ¦           +---dao
+    ¦       ¦           ¦       LeaveDAO.class
+    ¦       ¦           ¦       NotificationDAO.class
+    ¦       ¦           ¦       UserDAO.class
+    ¦       ¦           ¦       
+    ¦       ¦           +---model
+    ¦       ¦           ¦       Leave.class
+    ¦       ¦           ¦       Notification.class
+    ¦       ¦           ¦       User.class
+    ¦       ¦           ¦       
+    ¦       ¦           +---servlet
+    ¦       ¦           ¦       AdminDashboardServlet.class
+    ¦       ¦           ¦       ApplyLeaveServlet.class
+    ¦       ¦           ¦       CancelLeaveServlet.class
+    ¦       ¦           ¦       CreateUserServlet.class
+    ¦       ¦           ¦       LoginServlet.class
+    ¦       ¦           ¦       LogoutServlet.class
+    ¦       ¦           ¦       NotificationServlet.class
+    ¦       ¦           ¦       PublishNotificationServlet.class
+    ¦       ¦           ¦       UpdateLeaveServlet.class
+    ¦       ¦           ¦       UserDashboardServlet.class
+    ¦       ¦           ¦       
+    ¦       ¦           +---util
+    ¦       ¦                   DBConnection.class
+    ¦       ¦                   
+    ¦       +---lib
+    ¦       ¦       gson-2.10.1.jar
+    ¦       ¦       jstl-1.2.jar
+    ¦       ¦       mysql-connector-j-8.0.33.jar
+    ¦       ¦       protobuf-java-3.21.9.jar
+    ¦       ¦       
+    ¦       +---views
+    ¦           ¦   addStudentServelet.java
+    ¦           ¦   error.jsp
+    ¦           ¦   login.jsp
+    ¦           ¦   
+    ¦           +---admin
+    ¦           ¦       create-user.jsp
+    ¦           ¦       dashboard.jsp
+    ¦           ¦       publish-notification.jsp
+    ¦           ¦       
+    ¦           +---user
+    ¦                   apply-leave.jsp
+    ¦                   dashboard.jsp
+    ¦                   notifications.jsp
+    ¦                   
+    +---maven-archiver
+    ¦       pom.properties
+    ¦       
+    +---maven-status
+        +---maven-compiler-plugin
+            +---compile
+                +---default-compile
+                        createdFiles.lst
+                        inputFiles.lst
+                        
