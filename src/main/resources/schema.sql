@@ -5,8 +5,7 @@
 -- ============================================================
 
 -- Step 1: Create and select the database
-CREATE DATABASE IF NOT EXISTS leavemanagement;
-USE leavemanagement;
+
 
 -- ============================================================
 --  TABLE: users
