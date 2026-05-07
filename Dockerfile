@@ -1,13 +1,13 @@
+# Stage 1: Build the WAR with Maven
+FROM maven:3.9-eclipse-temurin-21 AS builder
+WORKDIR /app
+COPY pom.xml .
+COPY src ./src
+RUN mvn clean package -DskipTests
+
+# Stage 2: Deploy to Tomcat
 FROM tomcat:9.0-jdk21
-
-# Remove default Tomcat apps
 RUN rm -rf /usr/local/tomcat/webapps/*
-
-# Copy the built WAR into Tomcat
-COPY target/LeaveManagementApp.war /usr/local/tomcat/webapps/ROOT.war
-
-# Expose port
+COPY --from=builder /app/target/LeaveManagementApp.war /usr/local/tomcat/webapps/ROOT.war
 EXPOSE 8080
-
-# Start Tomcat
 CMD ["catalina.sh", "run"]
